@@ -1,3 +1,27 @@
+export const navLinks = [
+  { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Contact', href: '#contact' },
+];
+
+export const companyLogos = {
+  'Amazon Web Services (AWS)': '/logos/aws.svg',
+  'Ouro Inc.': '/logos/ouro.svg',
+  'NBC Universal': '/logos/nbc.svg',
+  'SS&C GlobeOp': null,
+};
+
+export const highlightedSkills = [
+  'Generative AI',
+  'Agentic AI Systems',
+  'AI/ML Strategy & Roadmap',
+  'Team Leadership & Mentorship',
+  'LLMs',
+  'RAG',
+];
+
 export const hero = {
   name: "Anup Meshram",
   title: "Data Science Leader",

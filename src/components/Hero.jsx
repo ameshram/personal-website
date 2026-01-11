@@ -1,4 +1,6 @@
 import { hero } from '../data/content';
+import Button from './ui/Button';
+import { ChevronDownIcon } from './ui/Icons';
 
 export default function Hero() {
   return (
@@ -17,35 +19,16 @@ export default function Hero() {
           {hero.subheadline}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href={hero.primaryCTA.href}
-            className="bg-accent hover:bg-accent-hover text-white px-6 py-3 rounded-lg font-medium transition-colors w-full sm:w-auto"
-          >
+          <Button href={hero.primaryCTA.href} className="w-full sm:w-auto">
             {hero.primaryCTA.text}
-          </a>
-          <a
-            href={hero.secondaryCTA.href}
-            className="border border-accent text-accent hover:bg-accent/10 px-6 py-3 rounded-lg font-medium transition-colors w-full sm:w-auto"
-          >
+          </Button>
+          <Button href={hero.secondaryCTA.href} variant="secondary" className="w-full sm:w-auto">
             {hero.secondaryCTA.text}
-          </a>
+          </Button>
         </div>
 
-        {/* Subtle scroll indicator - no animation */}
         <div className="mt-16 opacity-40">
-          <svg
-            className="w-5 h-5 mx-auto text-text-secondary"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1.5}
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
+          <ChevronDownIcon className="w-5 h-5 mx-auto text-text-secondary" />
         </div>
       </div>
     </section>
