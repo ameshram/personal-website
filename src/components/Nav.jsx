@@ -43,14 +43,14 @@ export default function Nav() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden fixed inset-0 top-16 bg-background/95 backdrop-blur-md">
-          <div className="flex flex-col items-center justify-center h-full gap-8">
+        <div className="md:hidden absolute left-0 right-0 top-16 bg-background border-b border-white/10 shadow-lg">
+          <div className="flex flex-col py-4">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={handleLinkClick}
-                className="text-2xl text-text-secondary hover:text-text-primary transition-colors font-medium"
+                className="px-6 py-3 text-lg text-text-secondary hover:text-text-primary hover:bg-surface transition-colors font-medium"
               >
                 {link.label}
               </a>

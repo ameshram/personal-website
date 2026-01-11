@@ -25,7 +25,7 @@ export const highlightedSkills = [
 export const hero = {
   name: "Anup Meshram",
   title: "Data Science Leader",
-  subheadline: "11+ years driving multimillion-dollar impact across Fintech, Cloud, and Media. Building Generative AI, Agentic AI, and ML applications that transform businesses.",
+  subheadline: "11+ years shipping production AI/ML systems. Built cloud management products at AWS, autonomous AI agents in Fintech, and recommendation engines serving 20M+ users in Media.",
   primaryCTA: { text: "View Experience", href: "#experience" },
   secondaryCTA: { text: "Explore Projects", href: "#projects" },
 };
