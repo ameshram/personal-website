@@ -198,46 +198,32 @@ export const skills = {
 
 export const education = [
   {
-    degree: "Master of Science (MS), Economics",
+    degree: "MS Economics",
     university: "Texas A&M University",
     location: "College Station, TX",
-    capstone: "Crude Oil price shocks analysis using VAR framework and Granger causality",
   },
   {
-    degree: "Master of Business Administration (MBA), Finance",
+    degree: "MBA Finance",
     university: "University of Mumbai",
     location: "Mumbai, India",
-    capstone: "Financial modeling using Excel and VBA for Auto Industry",
   },
   {
-    degree: "Bachelor of Engineering, Computer Engineering",
-    university: "Watumull Institute of Electronic Engineering and Computer Technology",
+    degree: "BE Computer Engineering",
+    university: "University of Mumbai",
     location: "Mumbai, India",
-    capstone: "Hospital Management System in VB and SQL",
   },
 ];
 
 export const certifications = [
   {
     name: "AWS Certified Machine Learning – Specialty",
-    issuer: "Amazon Web Services (AWS)",
-    date: "Feb 2024",
-    expires: "Feb 2027",
+    issuer: "Amazon Web Services",
+    year: "2024",
   },
   {
     name: "Generative AI with Large Language Models",
-    issuer: "DeepLearning.AI, Amazon Web Services",
-    date: "Jan 2024",
-  },
-  {
-    name: "SAS Certified Base Programmer for SAS 9",
-    issuer: "SAS",
-    date: "Apr 2014",
-  },
-  {
-    name: "Financial Modeling and Valuations using Excel and VBA",
-    issuer: "NCFM Share Market Training Institute",
-    date: "May 2012",
+    issuer: "DeepLearning.AI",
+    year: "2024",
   },
 ];
 
