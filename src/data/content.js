@@ -3,6 +3,7 @@ export const navLinks = [
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Certifications', href: '#certifications' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -194,6 +195,30 @@ export const skills = {
     "Media & Entertainment",
   ],
 };
+
+export const certifications = [
+  {
+    name: "AWS Certified Machine Learning – Specialty",
+    issuer: "Amazon Web Services (AWS)",
+    date: "Feb 2024",
+    expires: "Feb 2027",
+  },
+  {
+    name: "Generative AI with Large Language Models",
+    issuer: "DeepLearning.AI, Amazon Web Services",
+    date: "Jan 2024",
+  },
+  {
+    name: "SAS Certified Base Programmer for SAS 9",
+    issuer: "SAS",
+    date: "Apr 2014",
+  },
+  {
+    name: "Financial Modeling and Valuations using Excel and VBA",
+    issuer: "NCFM Share Market Training Institute",
+    date: "May 2012",
+  },
+];
 
 export const contact = {
   headline: "Let's Connect",
