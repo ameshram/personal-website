@@ -3,7 +3,7 @@ export const navLinks = [
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Certifications', href: '#certifications' },
+  { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -195,6 +195,27 @@ export const skills = {
     "Media & Entertainment",
   ],
 };
+
+export const education = [
+  {
+    degree: "Master of Science (MS), Economics",
+    university: "Texas A&M University",
+    location: "College Station, TX",
+    capstone: "Crude Oil price shocks analysis using VAR framework and Granger causality",
+  },
+  {
+    degree: "Master of Business Administration (MBA), Finance",
+    university: "University of Mumbai",
+    location: "Mumbai, India",
+    capstone: "Financial modeling using Excel and VBA for Auto Industry",
+  },
+  {
+    degree: "Bachelor of Engineering, Computer Engineering",
+    university: "Watumull Institute of Electronic Engineering and Computer Technology",
+    location: "Mumbai, India",
+    capstone: "Hospital Management System in VB and SQL",
+  },
+];
 
 export const certifications = [
   {
