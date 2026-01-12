@@ -4,16 +4,16 @@ import { Section, SectionTitle } from './ui/Section';
 
 const independentProjects = [
   {
-    title: "Project Coming Soon",
-    tag: "Independent · 2024",
-    description: "Details coming soon.",
-    tech: ["Python", "LangChain", "FastAPI"],
-    demoUrl: null,
+    title: "Nimbus",
+    tag: "Independent · 2025",
+    description: "AWS Certification Quiz & Flashcard Engine — AI-powered exam prep system generating scenario-based questions with detailed explanations across all certification domains. Features multi-domain coverage with 40+ topics and 100+ subtopics.",
+    tech: ["AI Agents", "React", "Node.js", "MongoDB", "AWS LightSail"],
+    demoUrl: "http://54.83.78.220:3001/",
     githubUrl: null,
   },
   {
     title: "Project Coming Soon",
-    tag: "Exploration · 2024",
+    tag: "Exploration · 2025",
     description: "Details coming soon.",
     tech: ["LangGraph", "GPT-4", "React"],
     demoUrl: null,
@@ -21,7 +21,7 @@ const independentProjects = [
   },
   {
     title: "Project Coming Soon",
-    tag: "Independent · 2024",
+    tag: "Independent · 2025",
     description: "Details coming soon.",
     tech: ["Python", "AWS", "Streamlit"],
     demoUrl: null,
@@ -85,7 +85,8 @@ function ProfessionalCard({ project }) {
 }
 
 function IndependentCard({ project }) {
-  const isDisabled = !project.demoUrl && !project.githubUrl;
+  const hasDemoUrl = project.demoUrl && project.demoUrl !== '#';
+  const hasGithubUrl = project.githubUrl && project.githubUrl !== '#';
 
   return (
     <div className="bg-surface border border-white/10 rounded-xl p-6 hover:border-accent/50 transition-colors">
@@ -111,28 +112,38 @@ function IndependentCard({ project }) {
       </div>
 
       <div className="flex gap-4 pt-4 border-t border-white/10">
-        <button
-          disabled={isDisabled}
-          className={`flex items-center gap-1.5 text-sm font-medium transition-colors ${
-            isDisabled
-              ? 'text-text-secondary/50 cursor-not-allowed'
-              : 'text-accent hover:underline cursor-pointer'
-          }`}
-        >
-          <ExternalLinkIcon className="w-4 h-4" />
-          Live Demo
-        </button>
-        <button
-          disabled={isDisabled}
-          className={`flex items-center gap-1.5 text-sm font-medium transition-colors ${
-            isDisabled
-              ? 'text-text-secondary/50 cursor-not-allowed'
-              : 'text-accent hover:underline cursor-pointer'
-          }`}
-        >
-          <GitHubIcon className="w-4 h-4" />
-          GitHub
-        </button>
+        {hasDemoUrl ? (
+          <a
+            href={project.demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+          >
+            <ExternalLinkIcon className="w-4 h-4" />
+            Live Demo
+          </a>
+        ) : (
+          <span className="flex items-center gap-1.5 text-sm font-medium text-text-secondary/50 cursor-not-allowed">
+            <ExternalLinkIcon className="w-4 h-4" />
+            Live Demo
+          </span>
+        )}
+        {hasGithubUrl ? (
+          <a
+            href={project.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+          >
+            <GitHubIcon className="w-4 h-4" />
+            GitHub
+          </a>
+        ) : (
+          <span className="flex items-center gap-1.5 text-sm font-medium text-text-secondary/50 cursor-not-allowed">
+            <GitHubIcon className="w-4 h-4" />
+            GitHub
+          </span>
+        )}
       </div>
     </div>
   );
