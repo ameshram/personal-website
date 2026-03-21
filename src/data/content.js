@@ -9,64 +9,63 @@ export const navLinks = [
 
 export const companyLogos = {
   'Amazon Web Services (AWS)': '/logos/aws.svg',
-  'Ouro Inc.': '/logos/ouro.svg',
+  'Netspend': '/logos/ouro.svg',
   'NBC Universal': '/logos/nbc.svg',
   'SS&C GlobeOp': null,
 };
 
 export const highlightedSkills = [
-  'Generative AI',
   'Agentic AI Systems',
-  'AI/ML Strategy & Roadmap',
-  'Team Leadership & Mentorship',
-  'LLMs',
-  'RAG',
+  'Generative AI',
+  'LLM Engineering',
+  'RAG Systems',
+  'Enterprise AI Strategy',
+  'Agentic Systems',
 ];
 
 export const hero = {
   name: "Anup Meshram",
-  title: "Data Science Leader",
-  subheadline: "11+ years shipping production AI/ML systems. Built cloud management products at AWS, autonomous AI agents in Fintech, and recommendation engines serving 20M+ users in Media.",
+  title: "AI & Data Science Leader",
+  subheadline: "12+ years building production AI systems that operate at scale — from agentic platforms that investigate financial crime to GenAI engines that remediate cloud infrastructure and recommendation systems serving 20M+ users.",
   primaryCTA: { text: "View Experience", href: "#experience" },
   secondaryCTA: { text: "Explore Projects", href: "#projects" },
 };
 
 export const about = {
-  paragraph: "I lead data science teams that deliver production-grade AI/ML systems driving real business impact. Over 11+ years, I've built and scaled teams, partnered with C-suite executives on AI/ML strategy, and shipped solutions—from Agentic AI platforms to recommendation engines—that have generated measurable revenue and operational efficiency gains across Fintech, Cloud, and Media industries.",
+  paragraph: "I build AI systems that reason, decide, and act on their own. I also lead the teams that bring them to production at scale. Over 12+ years, I've designed autonomous AI platforms, partnered with C-suite executives on enterprise AI strategy, and shipped intelligent systems generating $100M+ in measurable business impact across Fintech, Cloud, and Media.",
   highlights: [
-    "Built and scaled data science teams from 1 to 5+ members with MLOps best practices",
-    "Drove $100M+ in cumulative business impact through AI/ML initiatives",
-    "Partnered with C-suite to define 3-year AI/ML roadmaps and strategy",
-    "Expertise spanning Generative AI, Agentic AI, and traditional ML applications",
+    "Designed and shipped production AI platforms at enterprise scale — agentic reasoning engines, GenAI remediation systems, and deep learning recommendation systems",
+    "Impact measured by what ships: revenue generated, costs eliminated, risks mitigated. Cumulative value exceeds $100M across three industries",
+    "Scaled AI and data science organizations from the ground up, establishing MLOps pipelines that cut model-to-production time by 60%",
+    "Partner with C-suite leadership to define multi-year AI roadmaps — translating frontier research into production systems that transform operations",
   ],
   photoPlaceholder: true,
 };
 
 export const experience = [
   {
-    company: "Ouro Inc.",
-    companyNote: "Previously NetSpend",
-    role: "Data Science Leader, Innovation",
+    company: "Netspend",
+    role: "AI & Data Science Leader, Innovation",
     dates: "Aug 2024 – Present",
     location: "Austin, TX",
     bullets: [
-      "Lead, mentor, and scale a 5-member data science org; partner strategically with C-suite on 3-year AI/ML roadmap",
-      "Launched AI-driven customer-profiling engine for 350M users; increased retention by 23% and uncovered $28M incremental revenue",
-      "Built Agentic-AI Anti-Money Laundering platform: automated 95% of alerts, cut MTTR to <10 min, saved $5M+/yr",
-      "Deployed agentic RAG assistant (lifted CSAT 18 pts) and automated 99% CTR filings (saving $92K+/mo & mitigating $25M risk)",
+      "Lead a team of AI & data science professionals; partner with C-suite to define and execute a 3-year enterprise AI strategy",
+      "Built an AI profiling engine that segments and scores 350M users in real time, driving 23% retention lift and $28M incremental revenue",
+      "Built an Agentic AI platform for AML investigations. The system uses multi-step reasoning to triage 95% of alerts independently, with under 10 min resolution, saving $5M+/yr",
+      "Deployed a RAG-powered intelligent assistant (CSAT +18 pts) and a compliance automation system that handles 99% of CTR filings without manual intervention ($92K+/mo saved, $25M risk mitigated)",
     ],
   },
   {
     company: "Amazon Web Services (AWS)",
-    role: "Data Science Lead",
+    role: "AI & Data Science Lead",
     dates: "Mar 2020 – Aug 2024",
     location: "Austin, TX",
     bullets: [
-      "Owned ML strategy and product roadmap for AWS Cloud Management & CloudTrail, core services driving $1.5B annual revenue",
-      "Developed GenAI auto-remediation platform, resolving 65% of cloud issues in <15 min, averting $87M potential annual spend",
-      "Implemented time-series forecasting (1.2T daily data points): cut error rate from 15% to 5.8%, adding $55M ARR",
-      "Built ML anomaly detection pipeline analyzing >100Bn CloudTrail logs/day, achieving 97.96% precision",
-      "Grew data science team from 1 to 4 scientists; reduced model-to-production lifecycle by 60%",
+      "Defined the AI/ML strategy and product roadmap for AWS Cloud Management & CloudTrail — core services driving $1.5B annual revenue",
+      "Built a GenAI auto-remediation platform that diagnoses and fixes 65% of cloud infrastructure issues in under 15 minutes, averting $87M/yr in potential spend",
+      "Built predictive forecasting systems processing 1.2T daily data points, cutting error rate from 15% to 5.8% and adding $55M ARR",
+      "Architected an AI-powered anomaly detection system analyzing >100Bn CloudTrail events/day at 97.96% precision",
+      "Scaled the AI & data science team from 1 to 4; established MLOps practices that cut model-to-production time by 60%",
     ],
   },
   {
@@ -75,9 +74,9 @@ export const experience = [
     dates: "Nov 2015 – Mar 2020",
     location: "New York City",
     bullets: [
-      "Developed ML-powered viewer ratings forecasting, improving accuracy by 65% and reducing delivery from 90 days to <1 hour",
-      "Engineered audience segmentation models, improving ad targeting precision by 20% and delivering $32M incremental revenue in 6 months",
-      "Co-designed two-tower recommendation engine for Peacock Streaming; lifted content consumption up to 33% across 20M streams",
+      "Built an ML-powered predictive system for viewer ratings — improving accuracy by 65% and compressing delivery from 90 days to under 1 hour",
+      "Engineered an intelligent audience segmentation system, improving ad targeting precision by 20% and delivering $32M incremental revenue in 6 months",
+      "Co-architected a two-tower neural recommendation engine for Peacock Streaming — lifting content consumption 33% across 20M+ streams",
     ],
   },
   {
@@ -95,9 +94,9 @@ export const experience = [
 export const projects = [
   {
     title: "Agentic AI Anti-Money Laundering Platform",
-    company: "Ouro Inc.",
-    problem: "Manual AML alert processing was slow, expensive, and couldn't scale for a fintech serving underbanked consumers.",
-    approach: "Built an Agentic AI platform that autonomously investigates and triages AML alerts using LLMs and reasoning chains.",
+    company: "Netspend",
+    problem: "Manual AML investigations required human analysts to review every alert — creating bottlenecks, high costs, and compliance exposure at scale.",
+    approach: "Built an Agentic AI system that investigates, triages, and escalates AML alerts without human intervention, using LLM-driven reasoning and multi-step analysis.",
     metrics: [
       { value: "95%", label: "alerts automated" },
       { value: "<10 min", label: "MTTR" },
@@ -107,8 +106,8 @@ export const projects = [
   {
     title: "GenAI Auto-Remediation Platform",
     company: "AWS",
-    problem: "Cloud issues required manual investigation and resolution, causing delays and potential revenue loss.",
-    approach: "Developed a GenAI-based platform that automatically diagnoses and remediates cloud infrastructure issues.",
+    problem: "Cloud infrastructure failures required manual diagnosis by engineers — every minute of downtime risked customer revenue and SLA breaches.",
+    approach: "Built a GenAI auto-remediation system that diagnoses root causes, generates fix plans, and executes repairs end-to-end, reducing human intervention from hours to zero for 65% of incidents.",
     metrics: [
       { value: "65%", label: "issues auto-resolved" },
       { value: "<15 min", label: "resolution time" },
@@ -117,9 +116,9 @@ export const projects = [
   },
   {
     title: "AI-Driven Customer Profiling Engine",
-    company: "Ouro Inc.",
-    problem: "Needed deeper understanding of 350M users to improve retention and identify revenue opportunities.",
-    approach: "Launched AI-driven profiling engine combining behavioral analytics, transaction patterns, and predictive modeling.",
+    company: "Netspend",
+    problem: "With 350M users generating billions of transactions, static segmentation couldn't capture evolving customer behavior or surface revenue opportunities in real time.",
+    approach: "Designed an AI profiling engine that adapts to evolving behavioral signals, transaction patterns, and contextual indicators, scoring and segmenting users at scale in real time.",
     metrics: [
       { value: "350M", label: "users profiled" },
       { value: "23%", label: "retention increase" },
@@ -130,7 +129,7 @@ export const projects = [
     title: "Two-Tower Recommendation Engine",
     company: "NBC Universal (Peacock)",
     problem: "Legacy recommendations couldn't personalize content effectively for streaming viewers.",
-    approach: "Co-designed two-tower neural network architecture for personalized content recommendations at scale.",
+    approach: "Co-architected a two-tower neural network that independently encodes user preferences and content features, enabling real-time personalized recommendations across Peacock's 20M+ stream catalog.",
     metrics: [
       { value: "33%", label: "consumption lift" },
       { value: "20M", label: "streams served" },
@@ -140,7 +139,7 @@ export const projects = [
     title: "Time-Series Forecasting at Scale",
     company: "AWS",
     problem: "Cloud resource forecasting had 15% error rate, impacting customer planning and AWS revenue.",
-    approach: "Implemented advanced time-series forecasting models processing 1.2 trillion daily data points.",
+    approach: "Built a forecasting pipeline ingesting 1.2 trillion daily data points to predict cloud resource demand with production-grade reliability.",
     metrics: [
       { value: "1.2T", label: "daily data points" },
       { value: "61%", label: "error reduction" },
@@ -151,7 +150,7 @@ export const projects = [
     title: "Anomaly Detection Pipeline",
     company: "AWS CloudTrail",
     problem: "Detecting security and operational anomalies across massive log volumes was challenging.",
-    approach: "Built ML-based anomaly detection pipeline to analyze CloudTrail logs at scale.",
+    approach: "Architected an AI-powered anomaly detection system that continuously monitors >100Bn CloudTrail events per day, identifying security and operational threats with 97.96% precision.",
     metrics: [
       { value: "100Bn+", label: "logs analyzed daily" },
       { value: "97.96%", label: "precision" },
@@ -160,20 +159,20 @@ export const projects = [
 ];
 
 export const skills = {
-  "Leadership & Strategy": [
-    "AI/ML Strategy & Roadmap",
+  "AI Leadership & Strategy": [
+    "Enterprise AI Strategy",
     "Team Leadership & Mentorship",
     "Stakeholder Management",
     "Cross-functional Collaboration",
   ],
-  "Generative & Agentic AI": [
+  "Generative & Agentic AI Systems": [
     "Generative AI",
     "Agentic AI Systems",
-    "RAG",
-    "LLMs",
+    "RAG Systems",
+    "LLM Engineering",
     "LangGraph",
   ],
-  "Data Science & ML": [
+  "Applied AI & Machine Learning": [
     "Predictive Analytics",
     "Time-Series Forecasting",
     "Anomaly Detection",
@@ -181,7 +180,7 @@ export const skills = {
     "Customer Segmentation",
     "Churn Prediction",
   ],
-  "Engineering & MLOps": [
+  "AI Engineering & MLOps": [
     "MLOps",
     "MLFlow",
     "CI/CD",
@@ -189,7 +188,7 @@ export const skills = {
     "SQL",
     "Scalable AI Solutions",
   ],
-  "Cloud & Industry": [
+  "Cloud & Domain Expertise": [
     "AWS",
     "Fintech",
     "Media & Entertainment",
@@ -228,8 +227,8 @@ export const certifications = [
 ];
 
 export const contact = {
-  headline: "Let's Connect",
-  context: "Interested in discussing data science, AI/ML strategy, or potential collaborations.",
+  headline: "Let's build the future",
+  context: "Open to conversations about AI leadership, enterprise AI strategy, and building the next generation of intelligent systems.",
   linkedin: "https://linkedin.com/in/anupmeshram",
   email: "anup.meshram@gmail.com",
 };

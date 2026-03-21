@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Sora:wght@300;400;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0D0D0D;
-  --color-surface: #1F1F1F;
-  --color-surface-light: #262626;
-  --color-text-primary: #F5F5F5;
-  --color-text-secondary: #A3A3A3;
-  --color-accent: #3B82F6;
-  --color-accent-hover: #2563EB;
+  --color-background: #060810;
+  --color-surface: rgba(10, 16, 24, 0.7);
+  --color-surface-light: rgba(14, 20, 30, 0.8);
+  --color-text-primary: #e8eeef;
+  --color-text-secondary: rgba(180, 205, 210, 0.6);
+  --color-text-muted: rgba(140, 170, 178, 0.4);
+  --color-accent: #00d2be;
+  --color-accent-secondary: #00b4d8;
+  --color-accent-hover: #00e6cf;
+  --color-border: rgba(0, 210, 190, 0.08);
 
-  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-display: 'Sora', sans-serif;
+  --font-family-body: 'IBM Plex Sans', sans-serif;
+  --font-family-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
-  --max-width-content: 1200px;
+  --max-width-content: 1120px;
 }
 
 html {

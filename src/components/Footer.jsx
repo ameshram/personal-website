@@ -1,35 +1,34 @@
-import { contact } from '../data/content';
-import { LinkedInIcon, EmailIcon } from './ui/Icons';
-
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer className="py-8 px-6 md:px-20 border-t border-white/10">
-      <div className="max-w-content mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="text-sm text-text-secondary">
-          &copy; {currentYear} Anup Meshram. All rights reserved.
-        </p>
-
-        <div className="flex items-center gap-4">
-          <a
-            href={contact.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-text-secondary hover:text-text-primary transition-colors"
-            aria-label="LinkedIn"
-          >
-            <LinkedInIcon />
-          </a>
-          <a
-            href={`mailto:${contact.email}`}
-            className="text-text-secondary hover:text-text-primary transition-colors"
-            aria-label="Email"
-          >
-            <EmailIcon />
-          </a>
-        </div>
-      </div>
+    <footer
+      style={{
+        padding: '24px 32px',
+        maxWidth: 1120,
+        margin: '0 auto',
+        borderTop: '1px solid var(--color-border)',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }}
+    >
+      <span
+        style={{
+          fontFamily: 'var(--font-family-body)',
+          fontSize: 11,
+          color: 'var(--color-text-muted)',
+        }}
+      >
+        &copy; 2026 Anup Meshram
+      </span>
+      <span
+        style={{
+          fontFamily: 'var(--font-family-body)',
+          fontSize: 11,
+          color: 'var(--color-text-muted)',
+        }}
+      >
+        Designed with intelligence.
+      </span>
     </footer>
   );
 }
