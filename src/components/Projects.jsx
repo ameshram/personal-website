@@ -17,11 +17,12 @@ const independentProjects = [
     githubUrl: null,
   },
   {
-    title: 'Project Coming Soon',
-    tag: 'Exploration · 2025',
-    description: 'Details coming soon.',
-    tech: ['LangGraph', 'GPT-4', 'React'],
-    demoUrl: null,
+    title: 'Forecast Lab',
+    tag: 'Independent Research · 2026',
+    description:
+      'Do modern deep-learning and pre-trained foundation-model forecasters actually beat simpler methods on messy, mostly-zero retail demand? A reproducible study on the VN1 dataset (15,053 weekly series, ~80% intermittent) — 38 experiments across classical, ML, deep, and foundation models, each gated by a frozen backtest harness. The winner was a plain equal-weight blend of gradient-boosted trees and Chronos-Bolt; the fancier models lost.',
+    tech: ['Python', 'LightGBM', 'CatBoost', 'Chronos-Bolt', 'PyTorch'],
+    demoUrl: 'https://anupmeshram.com/forecast-lab/',
     githubUrl: null,
   },
   {
