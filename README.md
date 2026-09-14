@@ -1,16 +1,55 @@
-# React + Vite
+# Personal Website — anupmeshram.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![ci](https://github.com/ameshram/personal-website/actions/workflows/ci.yml/badge.svg)
 
-Currently, two official plugins are available:
+Source for my personal portfolio site: a single-page React app presenting my
+background, experience, projects, and contact details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
 
-## React Compiler
+- **React 19** + **Vite 7**
+- **Tailwind CSS v4** (design tokens) alongside component-scoped inline styles
+- **lucide-react** icons
+- **Vitest** for unit tests, **ESLint** for linting, **GitHub Actions** for CI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting started
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev        # local dev server (Vite, HMR)
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Scripts
+
+| Script | Purpose |
+|---|---|
+| `npm run dev` | Start the Vite dev server. |
+| `npm run build` | Production build to `dist/`. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | ESLint. |
+| `npm test` | Vitest unit tests (run once). |
+| `npm run test:watch` | Vitest in watch mode. |
+
+CI runs lint, tests, and build on every push and pull request
+(`.github/workflows/ci.yml`).
+
+## Structure
+
+```
+src/
+  components/        # page sections (Hero, About, Experience, Projects, …)
+    ui/              # reusable UI primitives (Button, Counter, Icons, …)
+  data/content.js    # all site text, links, and structured data (single source of truth)
+  utils/             # small pure helpers (+ their *.test.js)
+  hooks/             # custom React hooks
+  App.jsx            # assembles the sections
+index.html           # document shell + meta/OG tags
+```
+
+All copy and structured data live in `src/data/content.js` — edit content there
+rather than hardcoding it into components.
+
+## License
+
+Content (text, résumé data) © Anup Meshram. Code is provided as-is for
+reference.

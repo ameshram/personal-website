@@ -4,6 +4,7 @@ import { projects } from '../data/content';
 import SectionHeader from './ui/SectionHeader';
 import GlowCard from './ui/GlowCard';
 import Counter from './ui/Counter';
+import { parseMetricValue } from '../utils/parseMetricValue';
 import useReveal from '../hooks/useReveal';
 
 const independentProjects = [
@@ -34,13 +35,6 @@ const independentProjects = [
     githubUrl: null,
   },
 ];
-
-function parseMetricValue(value) {
-  const match = value.match(/^([<$]?)(\d+\.?\d*)([MBKT%+]*\+?)$/);
-  if (!match) return null;
-  const [, prefix, num, suffix] = match;
-  return { prefix, num: parseFloat(num), suffix };
-}
 
 function ProfessionalCard({ project, index }) {
   const { ref, visible } = useReveal(0.1);
