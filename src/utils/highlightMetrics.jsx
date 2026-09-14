@@ -1,6 +1,6 @@
 /**
- * Highlights metrics in text by wrapping numbers with accent styling
- * Matches patterns like: $10M, 95%, <10 min, $2M+/yr, 500K, 1.5B, 98%, 12Bn, 3T
+ * Highlights metric-shaped tokens in text by wrapping them with accent styling
+ * (currency, percentages, durations, and abbreviated magnitudes).
  */
 export function highlightMetrics(text) {
   const metricPattern = /(<?\$?\d+\.?\d*[MBKT]?(?:Bn)?\+?(?:\/yr|\/mo|%| pts| min)?)/g;

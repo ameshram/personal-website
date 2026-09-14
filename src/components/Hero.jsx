@@ -3,7 +3,6 @@ import { hero } from '../data/content';
 import DottedWaveSurface from './ui/DottedWaveSurface';
 import Spotlight from './ui/Spotlight';
 import GlowCard from './ui/GlowCard';
-import Counter from './ui/Counter';
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
@@ -253,7 +252,7 @@ export default function Hero() {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                <Counter end={100} prefix="$" suffix="M+" />
+                8-figure+
               </div>
               <div
                 style={{
@@ -277,9 +276,9 @@ export default function Hero() {
                 }}
               >
                 {[
-                  { n: 350, s: 'M', l: 'Users Profiled', p: '' },
-                  { n: 95, s: '%', l: 'AML Automated', p: '' },
-                  { n: 87, s: 'M', l: 'Spend Averted', p: '$' },
+                  { v: 'Millions', l: 'Users Profiled' },
+                  { v: 'Most', l: 'AML Automated' },
+                  { v: '8-figure', l: 'Spend Averted' },
                 ].map((m, i) => (
                   <div
                     key={i}
@@ -299,7 +298,7 @@ export default function Hero() {
                         marginBottom: 3,
                       }}
                     >
-                      <Counter end={m.n} prefix={m.p} suffix={m.s} />
+                      {m.v}
                     </div>
                     <div
                       style={{
@@ -317,31 +316,6 @@ export default function Hero() {
                 ))}
               </div>
 
-              {/* Mini bar chart */}
-              <div style={{ marginTop: 20, display: 'flex', alignItems: 'flex-end', gap: 2.5, height: 36 }}>
-                {[30, 50, 40, 65, 55, 80, 70, 90, 75, 95, 85, 100].map((h, i) => (
-                  <div
-                    key={i}
-                    style={{
-                      flex: 1,
-                      height: `${h}%`,
-                      borderRadius: 2.5,
-                      background: `linear-gradient(to top, rgba(0,210,190,0.08), rgba(0,210,190,${0.06 + h / 400}))`,
-                    }}
-                  />
-                ))}
-              </div>
-              <div
-                style={{
-                  fontFamily: 'var(--font-family-body)',
-                  fontSize: 9.5,
-                  color: 'var(--color-text-muted)',
-                  marginTop: 6,
-                  textAlign: 'center',
-                }}
-              >
-                Impact trajectory · 2015 – 2026
-              </div>
             </div>
           </GlowCard>
 
