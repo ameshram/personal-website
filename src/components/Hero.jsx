@@ -144,12 +144,7 @@ export default function Hero() {
               marginBottom: 36,
             }}
           >
-            {hero.subheadline.split(/(\$100M\+|AWS|Netspend|NBC Universal|20M\+)/g).map((part, i) => {
-              if (part === '$100M+') return <span key={i} style={{ color: '#00d2be', fontWeight: 600 }}>{part}</span>;
-              if (['AWS', 'Netspend', 'NBC Universal'].includes(part)) return <span key={i} style={{ color: 'var(--color-text-primary)' }}>{part}</span>;
-              if (part === '20M+') return <span key={i} style={{ color: '#00d2be', fontWeight: 600 }}>{part}</span>;
-              return part;
-            })}
+            {hero.subheadline}
           </p>
 
           <div style={{ ...a(5), display: 'flex', gap: 12, flexWrap: 'wrap' }}>

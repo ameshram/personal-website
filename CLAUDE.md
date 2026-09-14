@@ -20,7 +20,7 @@ src/
   data/
     content.js         # All site text, links, and structured data — single source of truth
   utils/
-    highlightMetrics.jsx  # Auto-highlights numerical values (e.g. $28M, 95%) in accent color
+    highlightMetrics.jsx  # Auto-highlights numerical values (e.g. $10M, 95%) in accent color
   App.jsx              # Root component — assembles all sections
   main.jsx             # React entry point
   index.css            # Global styles, CSS variables, Tailwind import, Inter font
@@ -35,7 +35,7 @@ public/
 - **Content is centralized**: All text, links, metrics, and structured data live in `src/data/content.js`. Never hardcode text directly in components.
 - **Component per section**: Each website section (Hero, About, Experience, Projects, Skills, Education, Contact) is its own component in `src/components/`.
 - **UI primitives**: Shared components live in `src/components/ui/` — use `Button` (primary/secondary), `Section` (layout wrapper), `SectionTitle`, and icon components from `Icons.jsx`.
-- **Metric highlighting**: Use `highlightMetrics()` from `src/utils/highlightMetrics.jsx` to auto-style numbers/percentages in accent color. It uses regex to match patterns like `$28M`, `95%`, `<10 min`.
+- **Metric highlighting**: Use `highlightMetrics()` from `src/utils/highlightMetrics.jsx` to auto-style numbers/percentages in accent color. It uses regex to match patterns like `$10M`, `95%`, `<10 min`.
 - **No external state management**: Plain React hooks (useState) only. No Redux, Zustand, or Context API.
 - **No animation libraries**: CSS transitions and Tailwind utilities only.
 

@@ -12,13 +12,13 @@ const items = [
   },
   {
     icon: Activity,
-    title: '$100M+ Business Impact',
-    desc: 'Impact measured by what ships: revenue generated, costs eliminated, risks mitigated. Cumulative value exceeds $100M across three industries.',
+    title: 'Multimillion-Dollar Impact',
+    desc: 'Impact measured by what ships: revenue generated, costs eliminated, and risk mitigated — multimillion-dollar cumulative value across three industries.',
   },
   {
     icon: Users,
     title: 'Team & Org Builder',
-    desc: 'Scaled AI and data science organizations from the ground up, establishing MLOps pipelines that cut model-to-production time by 60%.',
+    desc: 'Scaled AI and data science organizations from the ground up, establishing MLOps pipelines that more than halved model-to-production time.',
   },
   {
     icon: Zap,

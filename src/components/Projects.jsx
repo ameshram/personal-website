@@ -12,9 +12,9 @@ const independentProjects = [
     tag: 'Independent · 2025',
     description:
       'AWS Certification Quiz & Flashcard Engine — AI-powered exam prep system generating scenario-based questions with detailed explanations across all certification domains. Features multi-domain coverage with 40+ topics and 100+ subtopics.',
-    tech: ['AI Agents', 'React', 'Node.js', 'MongoDB', 'AWS LightSail'],
-    demoUrl: 'http://54.83.78.220:3001/',
-    githubUrl: null,
+    tech: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Claude API'],
+    demoUrl: null,
+    githubUrl: 'https://github.com/ameshram/nimbus-aws-quiz',
   },
   {
     title: 'Forecast Lab',
