@@ -201,7 +201,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right column — Impact Dashboard */}
+        {/* Right column - Impact Dashboard */}
         <div style={{ ...a(3), position: 'relative' }}>
           <GlowCard>
             <div style={{ padding: '32px 28px', position: 'relative' }}>

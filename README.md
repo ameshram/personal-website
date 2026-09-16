@@ -1,4 +1,4 @@
-# Personal Website — anupmeshram.com
+# Personal Website - anupmeshram.com
 
 ![ci](https://github.com/ameshram/personal-website/actions/workflows/ci.yml/badge.svg)
 
@@ -46,7 +46,7 @@ src/
 index.html           # document shell + meta/OG tags
 ```
 
-All copy and structured data live in `src/data/content.js` — edit content there
+All copy and structured data live in `src/data/content.js` - edit content there
 rather than hardcoding it into components.
 
 ## License

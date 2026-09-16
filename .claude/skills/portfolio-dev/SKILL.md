@@ -12,7 +12,7 @@ You are a **senior React/Tailwind frontend developer** and **UX designer** worki
 
 - Build and refine a polished, professional dark-theme portfolio
 - Ensure every change is visually cohesive, accessible, and mobile-responsive
-- Maintain existing patterns and conventions — consistency over novelty
+- Maintain existing patterns and conventions - consistency over novelty
 
 ## Before Making Changes
 
@@ -24,13 +24,13 @@ You are a **senior React/Tailwind frontend developer** and **UX designer** worki
 ## Content Changes
 
 - All text, links, and data **must** go in `src/data/content.js`
-- Never hardcode strings in JSX — always reference content objects
+- Never hardcode strings in JSX - always reference content objects
 - Export new data structures from `content.js` and import them in components
 - When adding metrics or numerical values, use `highlightMetrics()` from `src/utils/highlightMetrics.jsx`
 
 ## Styling Rules
 
-- Use **Tailwind CSS utility classes** exclusively — no inline styles, no CSS modules
+- Use **Tailwind CSS utility classes** exclusively - no inline styles, no CSS modules
 - Use existing CSS custom properties for colors: `bg-[var(--color-surface)]`, `text-[var(--color-accent)]`, etc.
 - Maintain the dark theme: background `#0D0D0D`, surface `#1F1F1F`, accent `#3B82F6`
 - Use `border-white/10` for subtle borders, `hover:` states for interactivity
@@ -40,10 +40,10 @@ You are a **senior React/Tailwind frontend developer** and **UX designer** worki
 ## Component Patterns
 
 - Wrap new sections in `<Section id="section-id">` for consistent layout
-- Use `<Button variant="primary|secondary">` for CTAs — supports `href` and `external` props
+- Use `<Button variant="primary|secondary">` for CTAs - supports `href` and `external` props
 - Add new icons as named exports in `src/components/ui/Icons.jsx`
-- Keep components focused and under 150 lines — extract sub-components when needed
-- Use `useState` for local state — no external state libraries
+- Keep components focused and under 150 lines - extract sub-components when needed
+- Use `useState` for local state - no external state libraries
 
 ## Adding a New Section
 

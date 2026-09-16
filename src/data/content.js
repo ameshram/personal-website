@@ -26,7 +26,7 @@ export const highlightedSkills = [
 export const hero = {
   name: "Anup Meshram",
   title: "AI & Data Science Leader",
-  subheadline: "12+ years building production AI systems that operate at scale — from agentic platforms that investigate financial crime to GenAI engines that remediate cloud infrastructure and recommendation systems serving millions of users.",
+  subheadline: "12+ years building production AI systems that operate at scale - from agentic platforms that investigate financial crime to GenAI engines that remediate cloud infrastructure and recommendation systems serving millions of users.",
   primaryCTA: { text: "View Experience", href: "#experience" },
   secondaryCTA: { text: "Explore Projects", href: "#projects" },
 };
@@ -34,10 +34,10 @@ export const hero = {
 export const about = {
   paragraph: "I build AI systems that reason, decide, and act on their own. I also lead the teams that bring them to production at scale. Over 12+ years, I've designed autonomous AI platforms, partnered with C-suite executives on enterprise AI strategy, and shipped intelligent systems that delivered multimillion-dollar measurable business impact across Fintech, Cloud, and Media.",
   highlights: [
-    "Designed and shipped production AI platforms at enterprise scale — agentic reasoning engines, GenAI remediation systems, and deep learning recommendation systems",
-    "Impact measured by what ships: revenue generated, costs eliminated, and risk mitigated — multimillion-dollar cumulative value across three industries",
+    "Designed and shipped production AI platforms at enterprise scale - agentic reasoning engines, GenAI remediation systems, and deep learning recommendation systems",
+    "Impact measured by what ships: revenue generated, costs eliminated, and risk mitigated - multimillion-dollar cumulative value across three industries",
     "Scaled AI and data science organizations from the ground up, establishing MLOps pipelines that more than halved model-to-production time",
-    "Partner with C-suite leadership to define multi-year AI roadmaps — translating frontier research into production systems that transform operations",
+    "Partner with C-suite leadership to define multi-year AI roadmaps - translating frontier research into production systems that transform operations",
   ],
   photoPlaceholder: true,
 };
@@ -52,7 +52,7 @@ export const experience = [
       "Lead a team of AI & data science professionals; partner with C-suite to define and execute a multi-year enterprise AI strategy",
       "Built an AI customer-profiling engine that segments and scores the customer base in real time, driving a double-digit retention lift and multimillion-dollar incremental revenue",
       "Built an Agentic AI platform for AML investigations that uses multi-step reasoning to triage most alerts independently in minutes, cutting investigation cost and turnaround substantially",
-      "Deployed a RAG-powered internal assistant that measurably improved support quality, and a compliance-automation system that handles the bulk of regulatory filings without manual intervention — eliminating substantial manual effort and compliance risk",
+      "Deployed a RAG-powered internal assistant that measurably improved support quality, and a compliance-automation system that handles the bulk of regulatory filings without manual intervention - eliminating substantial manual effort and compliance risk",
     ],
   },
   {
@@ -61,7 +61,7 @@ export const experience = [
     dates: "Mar 2020 – Aug 2024",
     location: "Austin, TX",
     bullets: [
-      "Defined the AI/ML strategy and product roadmap for AWS Cloud Management & CloudTrail — services used by enterprises worldwide",
+      "Defined the AI/ML strategy and product roadmap for AWS Cloud Management & CloudTrail - services used by enterprises worldwide",
       "Built a GenAI auto-remediation platform that diagnoses and resolves a majority of common cloud-infrastructure issues in minutes, averting significant operational spend",
       "Built predictive forecasting systems over very large-scale telemetry, more than halving forecast error and driving significant ARR",
       "Architected an AI-powered anomaly-detection system operating over tens of billions of events per day at high precision",
@@ -74,9 +74,9 @@ export const experience = [
     dates: "Nov 2015 – Mar 2020",
     location: "New York City",
     bullets: [
-      "Built an ML-powered predictive system for viewer ratings — substantially improving accuracy and compressing delivery from months to under an hour",
+      "Built an ML-powered predictive system for viewer ratings - substantially improving accuracy and compressing delivery from months to under an hour",
       "Engineered an intelligent audience-segmentation system, improving ad-targeting precision by double digits and delivering multimillion-dollar incremental revenue",
-      "Co-architected a two-tower neural recommendation engine for Peacock Streaming — lifting content consumption by roughly a third across millions of streams",
+      "Co-architected a two-tower neural recommendation engine for Peacock Streaming - lifting content consumption by roughly a third across millions of streams",
     ],
   },
   {
@@ -95,7 +95,7 @@ export const projects = [
   {
     title: "Agentic AI Anti-Money Laundering Platform",
     company: "Netspend",
-    problem: "Manual AML investigations required human analysts to review every alert — creating bottlenecks, high costs, and compliance exposure at scale.",
+    problem: "Manual AML investigations required human analysts to review every alert - creating bottlenecks, high costs, and compliance exposure at scale.",
     approach: "Built an Agentic AI system that investigates, triages, and escalates AML alerts without human intervention, using LLM-driven reasoning and multi-step analysis.",
     metrics: [
       { value: "Most", label: "alerts auto-triaged" },
@@ -106,7 +106,7 @@ export const projects = [
   {
     title: "GenAI Auto-Remediation Platform",
     company: "AWS",
-    problem: "Cloud infrastructure failures required manual diagnosis by engineers — every minute of downtime risked customer revenue and SLA breaches.",
+    problem: "Cloud infrastructure failures required manual diagnosis by engineers - every minute of downtime risked customer revenue and SLA breaches.",
     approach: "Built a GenAI auto-remediation system that diagnoses root causes, generates fix plans, and executes repairs end-to-end, reducing human intervention from hours to zero for the majority of incidents.",
     metrics: [
       { value: "Majority", label: "issues auto-resolved" },

@@ -12,7 +12,7 @@ const independentProjects = [
     title: 'Nimbus',
     tag: 'Independent · 2025',
     description:
-      'AWS Certification Quiz & Flashcard Engine — AI-powered exam prep system generating scenario-based questions with detailed explanations across all certification domains. Features multi-domain coverage with 40+ topics and 100+ subtopics.',
+      'AWS Certification Quiz & Flashcard Engine - AI-powered exam prep system generating scenario-based questions with detailed explanations across all certification domains. Features multi-domain coverage with 40+ topics and 100+ subtopics.',
     tech: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Claude API'],
     demoUrl: null,
     githubUrl: 'https://github.com/ameshram/nimbus-aws-quiz',
@@ -21,7 +21,7 @@ const independentProjects = [
     title: 'Forecast Lab',
     tag: 'Independent Research · 2026',
     description:
-      'Do modern deep-learning and pre-trained foundation-model forecasters actually beat simpler methods on messy, mostly-zero retail demand? A reproducible study on the VN1 dataset (15,053 weekly series, ~80% intermittent) — 38 experiments across classical, ML, deep, and foundation models, each gated by a frozen backtest harness. The winner was a plain equal-weight blend of gradient-boosted trees and Chronos-Bolt; the fancier models lost.',
+      'Do modern deep-learning and pre-trained foundation-model forecasters actually beat simpler methods on messy, mostly-zero retail demand? A reproducible study on the VN1 dataset (15,053 weekly series, ~80% intermittent) - 38 experiments across classical, ML, deep, and foundation models, each gated by a frozen backtest harness. The winner was a plain equal-weight blend of gradient-boosted trees and Chronos-Bolt; the fancier models lost.',
     tech: ['Python', 'LightGBM', 'CatBoost', 'Chronos-Bolt', 'PyTorch'],
     demoUrl: 'https://anupmeshram.com/forecast-lab/',
     githubUrl: 'https://github.com/ameshram/forecast-lab',

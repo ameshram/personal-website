@@ -8,12 +8,12 @@ const items = [
   {
     icon: BookOpen,
     title: 'AI Systems Architect',
-    desc: 'Designed and shipped production AI platforms at enterprise scale — agentic reasoning engines, GenAI remediation systems, and deep learning recommendation systems.',
+    desc: 'Designed and shipped production AI platforms at enterprise scale - agentic reasoning engines, GenAI remediation systems, and deep learning recommendation systems.',
   },
   {
     icon: Activity,
     title: 'Multimillion-Dollar Impact',
-    desc: 'Impact measured by what ships: revenue generated, costs eliminated, and risk mitigated — multimillion-dollar cumulative value across three industries.',
+    desc: 'Impact measured by what ships: revenue generated, costs eliminated, and risk mitigated - multimillion-dollar cumulative value across three industries.',
   },
   {
     icon: Users,
@@ -23,7 +23,7 @@ const items = [
   {
     icon: Zap,
     title: 'Enterprise AI Strategist',
-    desc: 'Partner with C-suite leadership to define multi-year AI roadmaps — translating frontier research into production systems that transform operations.',
+    desc: 'Partner with C-suite leadership to define multi-year AI roadmaps - translating frontier research into production systems that transform operations.',
   },
 ];
 

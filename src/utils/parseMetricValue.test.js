@@ -10,7 +10,7 @@ describe('parseMetricValue', () => {
   });
 
   it('returns null for qualitative labels (rendered verbatim, not animated)', () => {
-    // These are the actual metric values shipped in content.js — deliberately
+    // These are the actual metric values shipped in content.js - deliberately
     // generalized to buckets rather than exact figures, so Counter must NOT try
     // to animate them.
     for (const label of ['Most', 'Minutes', '7-figure', '8-figure', 'Majority',
