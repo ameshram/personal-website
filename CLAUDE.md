@@ -1,6 +1,8 @@
 # Anup Meshram - Portfolio Website
 
-React 19 + Vite 7 single-page personal portfolio site, dark theme.
+React 19 + Vite 7 single-page personal portfolio site, dark theme. Live at
+[anupmeshram.com](https://anupmeshram.com) - this is the public front door for a
+Staff/Principal AI/ML job search, so keep the content honest and the code clean.
 
 See @package.json for dependencies.
 
@@ -69,6 +71,8 @@ public/
 2. If the change needs new data fields, update the consuming component.
 3. Run `npm run dev` and verify in the browser.
 4. For a new section: create a component in `src/components/`, add it to `App.jsx`, and add a nav link in `content.js`.
+
+**Content integrity:** claims on the site must be honest and defensible. Keep business impact generalized (no unverifiable internal figures or NDA-sensitive employer metrics), and describe the linked repos as independent reference implementations, not production systems.
 
 ## Code Style
 
